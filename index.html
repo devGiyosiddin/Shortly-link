@@ -3,14 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>Shortly-Mh</title>
   
   <!-- STYLES -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <header class="site-header">
+    <div class="container">
+      <!-- Sitenav -->
+      <nav class="sitenav">
+        <div class="site-nav__wrapper">
+          <img class="site-logo" src="img/site-logo.svg" alt="site logo" width="120" height="32">
+          <ul class="sitenav__list">
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Features</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Pricing</a></li>
+            <li class="sitenav__item"><a class="sitenav__link" href="#">Resources</a></li>
+          </ul>
+        </div>
+        
+        <!-- Auth -->
+        <div class="sitenav__ath">
+          <button class="sitenav__auth-button login-button">Login</button>
+          <button class="sitenav__auth-button button sign-up__button">Sign Up</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main-content -->
+  <main class="main-content">
+    <div class="container">
+    <!-- Hero -->
+    <div class="hero">
+        <div class="hero-info__wrapper">
+          <h2 class="hero__header">More than just shorter links</h2>
+          <p class="hero__text">Build your brand's recognition and get detailed insights on how your links are performing.</p>
+          <button class="hero__button button" type="button">Get started</button>
+        </div>
+        <img class="hero__img" src="img/hero-img.png" alt="developer on a computer" width="733" height="482"
+          srcset="img/hero-img.png 1x, img/hero-img@2x.png 2x">
+        </div>
+      </div>
+
+      <div class="index-url-shortener-features-wrapper">
+        <div class="index-url-shortener-features-wrapper__url-form">
+          <!-- Url-shortener-form --> 
+          <section class="url-shortener">
+            <div class="container">
+            <h2 class="visually-hidden">URL Shortener</h2>
+            <form action="https://echo.htmlacademy.ru" class="url-shortener-form js-url-shortener-form" method="post">
+              <div class="url-shortener__input-wrapper">
+                <input class="url-shortener__input" type="url" name="url" placeholder="Shorten a link here..." aria-label="URl input" required>
+                <div class="url-shortener___error-msg">Please add a link</div>
+              </div>
+              <button class="url-shortener__submit button button-rectangle-big" type="submit">Shorten It!</button>
+            </form>
+
+            <!-- Results -->
+            <div class="url-shortener__results">
+              <div class="url-shortener__result">
+                <div class="url-shortener__original-link">https://www.frontendmentor.io</div>
+                <a href="#" class="url-shortener__short-link" target="_blank">https://rel.ink/k4lKyk</a>
+                <button type="button" class="button  button-copy js-copy-short-link-button">Copy</button>
+              </div>
+              <div class="url-shortener__result">
+                <div class="url-shortener__original-link">https://twitter.com/frontendmentor</div>
+                <a href="#" class="url-shortener__short-link" target="_blank">https://rel.ink/gxOXp9</a>
+                <button type="button" class="button  button-copy js-copy-short-link-button">Copy!</button>
+              </div>
+              <div class="url-shortener__result">
+                <div class="url-shortener__original-link">https://www.linkedin.com/company/frontend-mentor</div>
+                <a href="#" class="url-shortener__short-link" target="_blank">https://rel.ink/gob3X9</a>
+                <button type="button" class="button  button-copy js-copy-short-link-button">Copy</button>
+              </div>
+            </div>
+            </div>
+          </section>
+        </div>
+        
+        <!-- Index-Features -->
+
+      </div>
+  </main>
+
   <script src="js/main.js"></script>
 </body>
 </html>
