@@ -145,7 +145,7 @@ select:-webkit-autofill:focus {
   justify-content: space-between;
   margin-top: 48px;
 }
-.site-nav__wrapper {
+.sitenav__wrapper {
   display: flex;
   align-items: center;
 }
@@ -204,7 +204,7 @@ select:-webkit-autofill:focus {
   color: var(--text-color);
 }
 
-.sign-up__button {
+.sign-up-button {
   width: 105px;
   height: 40px;
   border-radius: 28px;
@@ -391,7 +391,7 @@ select:-webkit-autofill:focus {
   padding-bottom: 120px;
 }
 
-.index-features__header--wrapper {
+.index-features__header-wrapper {
   width: 100%;
   max-width: 540px;
   margin: 0 auto;
