@@ -17,7 +17,10 @@ if (elUrlShortener) {
             evt.target.textContent = 'Copied';
 
             // Change button bg color
-            evt.target.classList.add('button-copied-bg')
+            evt.target.classList.add('button-copied-bg');
+
+            // Copy short link Clipboard
+            navigator.clipboard.writeText(evt.target.previousElementSibling.textContent);
 
             // Reset button text and class after 1s
             setTimeout(function (){

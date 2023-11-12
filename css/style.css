@@ -385,6 +385,135 @@ select:-webkit-autofill:focus {
   background-color: var(--dark-ink);
 }
 
+
+/* INDEX-FEATURES */
+.index-features {
+  padding-bottom: 120px;
+}
+
+.index-features__header--wrapper {
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+  margin-bottom: 56px;
+  text-align: center;
+}
+
+.index-features__header {
+  margin: 0;
+  margin-bottom: 18px;
+  font-size: 40px;
+  font-weight: 700;
+  font-stretch: normal;
+  letter-spacing: -1px;
+  line-height: 48px;
+}
+
+.index-features__text {
+  margin: 0;
+  color: #9E9AA8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.123px;
+}
+
+.index-features__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.index-features__item {
+  z-index: 100;
+  position: relative;
+  display: flex;
+  height: 267px;
+  flex-direction: column;
+  padding: 77px 32px 41px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.index-features__item:not(:last-child) {
+  margin-right: 30px;
+}
+.index-features__item:nth-child(2) {
+  margin-top: 44px;
+}
+.index-features__item:nth-child(3) {
+  margin-top: 88px;
+}
+
+.index-features__item-img {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  top: 0;
+  padding: 20px;
+  border-radius: 50%;
+  background: var(--dark-ink);
+  transform: translateY(-50%);
+}
+
+.index-features__item-title {
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.index-features__item-text {
+  margin: 0;
+}
+
+.index-features__items-line {
+  position: absolute;
+  margin-top: -210px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1110px;
+  height: 8px;
+  background: var(--button);
+}
+
+
+/* CTA */
+.cta {
+  width: 100%;
+  height: 250px;
+  background-color: var(--dark-ink);
+}
+
+.cta-container {
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 57px 0;
+  background: url("../img/cta-bg-img.svg") no-repeat;
+}
+
+.cta__header {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-stretch: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1px;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.cta__button {
+  transform: translateX(105%);
+  padding: 14px 40px 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 28px;
+}
+
 /* RETINA */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
