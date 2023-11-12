@@ -573,6 +573,7 @@ select:-webkit-autofill:focus {
   font-weight: 500;
   line-height: normal;
   letter-spacing: -0.234px;
+  text-transform: capitalize;
 }
 .site-footer__items-link:hover {
   color: #fff;
