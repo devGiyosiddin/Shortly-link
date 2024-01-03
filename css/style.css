@@ -280,7 +280,10 @@ select:-webkit-autofill:focus {
   margin-bottom: 24px;
   border-radius: 10px;
   background-color: var(--ink);
-  background: url("../img/url-shortening__url-bg-img.svg") cover center no-repeat;
+  background-image: url("../img/url-shortening__url-bg-img.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .url-shortener__input-wrapper {
