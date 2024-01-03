@@ -216,13 +216,13 @@ select:-webkit-autofill:focus {
 /* HERO */
 .hero {
   position: relative;
+  padding-top: 139px;
   padding-bottom: 322px;
 }
 
-.hero-info__wrapper {
+.hero-info-wrapper {
   width: 565px;
   height: auto;
-  margin-top: 139px;
 }
 
 .hero__header {
