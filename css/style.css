@@ -624,8 +624,14 @@ select:-webkit-autofill:focus {
 
 
 /* media */
-@media only screen and (max-width: 1023px) {
-
+@media only screen and (max-width: 1250px) {
+  .hero {
+    position: static;
+    display: flex;
+  }
+  .hero__img {
+    position: static;
+  }
 }
 @media only screen and (max-width: 768px) {
   .sitenav-menu {
@@ -705,15 +711,11 @@ select:-webkit-autofill:focus {
     color: var(--button-hover);
   }
   /* hero */
-  .hero {
-    position: static;
-  }
 }
 
 @media only screen and (max-width: 500px) {
-  .sitenav__list {
+  .sitenav__list--open {
     width: 90%;
-    padding: 0 -30px;
     left: 5vw;
     right: 5vw;
   }
