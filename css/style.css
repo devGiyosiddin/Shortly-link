@@ -631,6 +631,26 @@ select:-webkit-autofill:focus {
   }
   .hero__img {
     position: static;
+    max-width: 50vw;
+    height: 50vw;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .hero {
+    flex-direction: column-reverse;
+    padding: 100px 0 280px;
+  }
+  .hero__img {
+    width: 100%;
+    max-width: 50vw;
+    height: 50vw;
+    margin: 0 auto 30px;
+  }
+  .hero-info-wrapper {
+    /* width: 100%; */
+    margin: 0 auto;
+    text-align: center;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -711,6 +731,70 @@ select:-webkit-autofill:focus {
     color: var(--button-hover);
   }
   /* hero */
+  .hero {
+    padding-top: 25px;
+    padding-bottom: 202px;
+  }
+  .hero-info-wrapper {
+    width: 90vw;
+  }
+  .hero__header {
+    text-align: center;
+    font-size: 65px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero__text {
+    width: auto;
+  }
+  .hero__img  {
+    max-width: 60vw;
+    height: 60vw;
+  }
+  .hero__header {
+    font-size: 50px;
+  }
+  /* url-shortener */
+  .url-shortener-form {
+    padding: 24px;
+  }
+  .url-shortener__input {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .url-shortener-form {
+    flex-direction: column;
+  }
+
+  .url-shortener__input-wrapper {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .url-shortener__input {
+    width: 100%;
+  }
+  .url-shortener__submit {
+    width: 100%;
+  }
+  .url-shortener__result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .url-shortener__original-link {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 225%;
+    letter-spacing: 0.01em;
+    margin-right: 0;
+  }
+  .url-shortener__short-link {
+    margin-right: 0;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -726,7 +810,27 @@ select:-webkit-autofill:focus {
     font-weight: 700;
     font-size: 18px;
   }
-
+  /* hero */
+  .hero__header {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 114%;
+    letter-spacing: -0.02em;
+    margin-bottom: 15px;
+  }
+  .hero__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 167%;
+    letter-spacing: 0.01em;
+  }
+  .hero__img  {
+    max-width: 60vw;
+    height: 60vw;
+  }
+  .url-shortener__original-link {
+    font-size: 16px;
+  }
 }
 
 
