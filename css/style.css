@@ -614,6 +614,7 @@ select:-webkit-autofill:focus {
 
 .site-footer__socials-link {
   text-decoration: none;
+  display: flex;
 }
 .site-footer__socials-link:hover {
   opacity: 0.7;
