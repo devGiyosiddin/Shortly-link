@@ -30,3 +30,13 @@ if (elUrlShortener) {
         }
     });
 }
+
+// DARK-THEME
+const elSitenavMenuBtn = document.querySelector('.sitenav-menu');
+const elSitenavLIst = document.querySelector('.sitenav__list');
+
+if (elSitenavMenuBtn) {
+    elSitenavMenuBtn.addEventListener('click', function () {
+        elSitenavLIst.classList.toggle('sitenav__list--open');
+    });
+}
