@@ -505,6 +505,7 @@ select:-webkit-autofill:focus {
   width: 100%;
   max-width: 540px;
   margin: 0 auto;
+  text-align: center;
   padding: 57px 0;
   background: url("../img/cta-bg-img.svg") no-repeat;
 }
@@ -522,7 +523,8 @@ select:-webkit-autofill:focus {
 }
 
 .cta__button {
-  transform: translatex(105%);
+  margin-left: auto;
+  margin-right: auto;
   padding: 14px 40px 12px;
   font-style: normal;
   font-weight: 700;
@@ -791,7 +793,6 @@ select:-webkit-autofill:focus {
   .url-shortener-form {
     flex-direction: column;
   }
-
   .url-shortener__input-wrapper {
     margin-right: 0;
     margin-bottom: 16px;
@@ -817,6 +818,13 @@ select:-webkit-autofill:focus {
   }
   .url-shortener__short-link {
     margin-right: 0;
+  }
+  /* cta */
+  .cta__header {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 171%;
+    letter-spacing: -0.02em;
   }
 }
 
