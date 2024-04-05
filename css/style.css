@@ -663,7 +663,7 @@ select:-webkit-autofill:focus {
     width: 327px;
     height: 383px;
     top: 120px;
-    left: -100%;
+    left: -150%;
     flex-direction: column;
     text-align: center;
     background: var(--dark-ink);
@@ -690,7 +690,6 @@ select:-webkit-autofill:focus {
   .sitenav__item:not(:last-child) {
     margin-right: 0;
   }
-
   .sitenav-menu {
     margin-left: auto;
   }
