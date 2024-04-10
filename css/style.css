@@ -447,7 +447,7 @@ select:-webkit-autofill:focus {
   z-index: 100;
   position: relative;
   display: flex;
-  height: 267px;
+  height: fit-content;
   flex-direction: column;
   padding: 77px 32px 41px;
   border-radius: 5px;
@@ -487,8 +487,10 @@ select:-webkit-autofill:focus {
   position: absolute;
   margin-top: -210px;
   z-index: 1;
-  width: 100%;
-  max-width: 1110px;
+  width: 80%;
+  max-width: 1100px;
+  left: 2vw;
+  right: 2vw;
   height: 8px;
   background: var(--button);
 }
